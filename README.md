@@ -16,15 +16,15 @@ CRUD-приложение на Java 17 и Spring Boot 4 для работы с �
 
 ## Структура
 
-UserController - HTTP-слой
+ClientController - HTTP-слой
 
-UserService - бизнес-логика
+ClientService - бизнес-логика
 
-UserRepository - доступ к бд через Spring Data JPA
+ClientRepository - доступ к бд через Spring Data JPA
 
-UserEntity - сущность 
+ClientEntity - сущность 
 
-User- DTO
+Clients- DTO
 
 application.properties - настройки подключения к бд
 
