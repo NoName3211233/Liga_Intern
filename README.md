@@ -3,6 +3,8 @@ CRUD-приложение на Java 17 и Spring Boot 4 для работы с �
 База данных PostgreSQL в Docker. Операции: создание, чтение,
 обновление и удаление клиентов.
 
+Есть проблема с импортом в Maven Wrapper , поэтому в настройках менял  Use Maven wrapper на «Bundled (Maven 3)
+
 (docker run --name Liga-postgres -d -e POSTGRES_PASSWORD=root -e POSTGRES_NAME=postgres -p 5432:5432 postgres)
 
 ## Стэк:
